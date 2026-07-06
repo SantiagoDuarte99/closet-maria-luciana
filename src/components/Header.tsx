@@ -23,7 +23,7 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src="/brand/logo.jpeg"
+            src="/brand/logo.png"
             alt="El Closet de María Luciana"
             width={120}
             height={120}
