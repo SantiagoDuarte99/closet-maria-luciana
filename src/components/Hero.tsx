@@ -48,13 +48,13 @@ export default function Hero() {
         <div className="relative flex justify-center lg:justify-end">
           <div className="absolute -top-6 -left-6 h-20 w-20 rounded-full bg-gold/30 blur-2xl" />
           <div className="absolute -bottom-8 right-8 h-24 w-24 rounded-full bg-mint/30 blur-2xl" />
-          <div className="relative h-72 w-72 sm:h-96 sm:w-96 animate-float rounded-full overflow-hidden ring-8 ring-white shadow-xl shadow-coral/15">
+          <div className="relative h-72 w-72 sm:h-96 sm:w-96 animate-float rounded-[2.5rem] overflow-hidden ring-8 ring-white shadow-xl shadow-coral/15 bg-black">
             <Image
               src="/brand/logo.jpeg"
               alt="El Closet de María Luciana"
               fill
               priority
-              className="object-cover scale-110"
+              className="object-contain p-4"
             />
           </div>
         </div>
