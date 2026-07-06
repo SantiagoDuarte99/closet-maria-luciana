@@ -9,7 +9,7 @@ export default function FeaturedCatalog() {
         <div>
           <span className="font-script text-2xl text-coral-deep">Nuestra colección</span>
           <h2 className="font-display text-3xl sm:text-4xl text-ink mt-1">
-            Lo más querido del closet
+            Lo más amado de la colección
           </h2>
         </div>
         <Link
